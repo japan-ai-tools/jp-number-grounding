@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.japan-ai-tools/jp-number-grounding",
+  "title": "JP Number Grounding",
+  "description": "Check that numbers, amounts and dates in an AI-written Japanese summary appear in its source.",
+  "repository": {
+    "url": "https://github.com/japan-ai-tools/jp-number-grounding",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "jp-number-grounding",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
