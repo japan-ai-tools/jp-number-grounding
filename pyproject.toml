@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jp-number-grounding"
+version = "0.1.0"
+description = "Check that numbers, amounts and dates in an AI-written Japanese summary appear in its source."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "NEXUS tools" }]
+keywords = ["mcp", "mcp-server", "japanese", "ai-agents", "hallucination", "grounding"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Natural Language :: Japanese",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.scripts]
+jp-number-grounding = "jpnumground.server:main"
+
+[project.urls]
+Homepage = "https://github.com/japan-ai-tools/jp-number-grounding"
+Source = "https://github.com/japan-ai-tools/jp-number-grounding"
+
+[tool.setuptools]
+packages = ["jpnumground"]
