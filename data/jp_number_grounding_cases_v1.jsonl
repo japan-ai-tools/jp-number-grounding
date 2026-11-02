@@ -1,0 +1,30 @@
+{"id": "ng01", "category": "kanji_money", "source": "来期の予算は三千五百万円とする。", "summary": "予算は3,500万円。", "expected_problems": []}
+{"id": "ng02", "category": "kanji_money", "source": "来期の予算は三千五百万円とする。", "summary": "予算は3,800万円。", "expected_problems": ["38000000円"]}
+{"id": "ng03", "category": "oku", "source": "売上高は1億2000万円だった。", "summary": "売上高は1.2億円。", "expected_problems": []}
+{"id": "ng04", "category": "full_digits", "source": "参加者は１２名。", "summary": "参加者は12人。", "expected_problems": []}
+{"id": "ng05", "category": "count_unit", "source": "問い合わせは30件あった。", "summary": "問い合わせは30人から。", "expected_problems": ["30人"]}
+{"id": "ng06", "category": "era_date", "source": "令和7年4月1日に施行する。", "summary": "2025年4月1日施行。", "expected_problems": []}
+{"id": "ng07", "category": "era_date", "source": "令和7年4月1日に施行する。", "summary": "2025年4月10日施行。", "expected_problems": ["2025-04-10"]}
+{"id": "ng08", "category": "era_dot", "source": "契約日 R7.3.31", "summary": "契約日は2025年3月31日。", "expected_problems": []}
+{"id": "ng09", "category": "slash_date", "source": "次回は2025/6/3。", "summary": "次回は6月3日。", "expected_problems": []}
+{"id": "ng10", "category": "invented_deadline", "source": "資料は各自で準備する。次回は5月8日。", "summary": "次回は5月8日。資料の提出期限は5月1日。", "expected_problems": ["????-05-01"]}
+{"id": "ng11", "category": "time", "source": "会議は午後2時から。", "summary": "会議は14:00から。", "expected_problems": []}
+{"id": "ng12", "category": "time", "source": "会議は午後2時から。", "summary": "会議は12:00から。", "expected_problems": ["12:00"]}
+{"id": "ng13", "category": "time_half", "source": "開始は10時半。", "summary": "開始は10:30。", "expected_problems": []}
+{"id": "ng14", "category": "percent_wari", "source": "前年比1割5分増。", "summary": "前年比15%増。", "expected_problems": []}
+{"id": "ng15", "category": "percent", "source": "達成率は87%。", "summary": "達成率は78%。", "expected_problems": ["78%"]}
+{"id": "ng16", "category": "approx", "source": "見積額は3,480万円。", "summary": "見積額は約3,500万円。", "expected_problems": []}
+{"id": "ng17", "category": "approx_far", "source": "見積額は3,480万円。", "summary": "見積額は約5,000万円。", "expected_problems": ["50000000円"]}
+{"id": "ng18", "category": "no_approx_marker", "source": "見積額は3,480万円。", "summary": "見積額は3,500万円。", "expected_problems": ["35000000円"]}
+{"id": "ng19", "category": "weekday", "source": "打ち合わせは2025年4月1日(火)。", "summary": "打ち合わせは2025年4月1日(水)。", "expected_problems": ["2025-04-01"]}
+{"id": "ng20", "category": "idioms", "source": "一宮支店と三菱の件は統一書式で一部修正。費用は20万円。", "summary": "一宮支店の件は費用20万円。", "expected_problems": []}
+{"id": "ng21", "category": "idioms", "source": "一宮支店と三菱の件は統一書式で一部修正。費用は20万円。", "summary": "一宮支店の件は費用2万円。", "expected_problems": ["20000円"]}
+{"id": "ng22", "category": "era_year", "source": "令和6年度の実績を報告。", "summary": "2024年度の実績を報告。", "expected_problems": []}
+{"id": "ng23", "category": "era_gannen", "source": "令和元年5月1日に改元。", "summary": "2019年5月1日に改元。", "expected_problems": []}
+{"id": "ng24", "category": "months", "source": "工期は6か月。", "summary": "工期は6ヶ月。", "expected_problems": []}
+{"id": "ng25", "category": "months", "source": "工期は6か月。", "summary": "工期は3か月。", "expected_problems": ["3か月"]}
+{"id": "ng26", "category": "kanji_count", "source": "出席は十五名、欠席は三名。", "summary": "出席15人、欠席3人。", "expected_problems": []}
+{"id": "ng27", "category": "kanji_count", "source": "出席は十五名、欠席は三名。", "summary": "出席15人、欠席5人。", "expected_problems": ["5人"]}
+{"id": "ng28", "category": "year_missing", "source": "締切は4月30日。", "summary": "締切は2025年4月30日。", "expected_problems": []}
+{"id": "ng29", "category": "usd", "source": "価格は$300。", "summary": "価格は300ドル。", "expected_problems": []}
+{"id": "ng30", "category": "multi", "source": "参加者は12名、予算は二百万円、次回は7月7日 午前10時。", "summary": "参加者12名、予算200万円、次回7/7 10:00。", "expected_problems": []}
