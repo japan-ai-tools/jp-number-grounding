@@ -1,0 +1,8 @@
+# JP Number Grounding
+
+> Checks that numbers, money amounts, percentages, counts, dates and times in an AI-written Japanese summary or meeting minutes (議事録) appear in the source text. Normalizes kanji numerals (三千五百万), 万/億, full-width digits, Japanese era years (令和7年, R7.4.1), 午前/午後 times, 割/分 rates and counters (名=人) before comparing. Reports unsupported values (invented deadlines, wrong figures), unit mismatches and wrong weekdays. MCP server, CLI, Python. Stdlib, no network, MIT.
+
+- jpnumground/ground.py: extract(text), check(source, summary, tolerance=0.1), parse_number(token)
+- jpnumground/server.py: MCP stdio server; tools jp_number_grounding_check, jp_number_extract
+- data/jp_number_grounding_cases_v1.jsonl: 30 cases; python -m jpnumground.bench
+- tests/test_jpnumground.py: 26 tests
