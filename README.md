@@ -64,6 +64,12 @@ check("予算は三千五百万円", "予算は3,800万円")["problems"]
 extract("令和7年4月1日 午後2時")[0]["normalized"]   # '2025-04-01'
 ```
 
+## Limits
+
+- It checks that each number, amount, date and time in the summary also appears in the source. It does not check meaning: a correct number in a wrong sentence passes.
+- Numbers written only in words it does not know (rare counters, dialects, slang) may be missed. Unknown forms are reported, not guessed.
+- Japanese text only. It is a checking aid for minutes and summaries, not a replacement for a person reading them.
+
 ## Tests
 
 ```bash
